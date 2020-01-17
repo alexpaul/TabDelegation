@@ -19,7 +19,7 @@ final class DataModel {
   private var name = ""
   
   init() {
-    // code here
+    // initialization here
   }
   
   public func getName() -> String {

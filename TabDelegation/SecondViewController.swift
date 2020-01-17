@@ -15,6 +15,7 @@ class SecondViewController: UIViewController {
   init(dataModel: DataModel) {
     super.init(nibName: nil, bundle: nil)
     self.dataModel = dataModel
+    self.dataModel.delegate = self
   }
   
   required init?(coder: NSCoder) {
