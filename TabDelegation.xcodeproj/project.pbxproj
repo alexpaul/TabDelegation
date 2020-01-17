@@ -66,20 +66,44 @@
 		57CF11F223A307FA0057EE4B /* TabDelegation */ = {
 			isa = PBXGroup;
 			children = (
-				57CF11F323A307FA0057EE4B /* AppDelegate.swift */,
-				57CF11F523A307FA0057EE4B /* SceneDelegate.swift */,
-				57CF120B23A308570057EE4B /* TabViewController.swift */,
 				57CF121323A311850057EE4B /* DataModel.swift */,
-				57CF121123A30CD00057EE4B /* FirstView.swift */,
-				57CF120723A308310057EE4B /* FirstViewController.swift */,
-				57CF121523A317650057EE4B /* SecondView.swift */,
-				57CF120923A3083C0057EE4B /* SecondViewController.swift */,
-				57CF11FC23A307FD0057EE4B /* Assets.xcassets */,
-				57CF11FE23A307FD0057EE4B /* LaunchScreen.storyboard */,
-				57CF120F23A30B2E0057EE4B /* Main.storyboard */,
+				57DD381523D1DE95003586CD /* Views */,
+				57DD381423D1DE8A003586CD /* Controllers */,
+				57DD381623D1DEBF003586CD /* Supporting Files */,
 				57CF120123A307FD0057EE4B /* Info.plist */,
 			);
 			path = TabDelegation;
+			sourceTree = "<group>";
+		};
+		57DD381423D1DE8A003586CD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				57CF120B23A308570057EE4B /* TabViewController.swift */,
+				57CF120723A308310057EE4B /* FirstViewController.swift */,
+				57CF120923A3083C0057EE4B /* SecondViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		57DD381523D1DE95003586CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				57CF121123A30CD00057EE4B /* FirstView.swift */,
+				57CF121523A317650057EE4B /* SecondView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		57DD381623D1DEBF003586CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57CF11F323A307FA0057EE4B /* AppDelegate.swift */,
+				57CF120F23A30B2E0057EE4B /* Main.storyboard */,
+				57CF11F523A307FA0057EE4B /* SceneDelegate.swift */,
+				57CF11FC23A307FD0057EE4B /* Assets.xcassets */,
+				57CF11FE23A307FD0057EE4B /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
